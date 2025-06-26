@@ -1,0 +1,12 @@
+names = {'John', 'Jack', 'Tom', 'Thomas', 'Lopez', 'Lorem', 'ipsum', 'dolar', 'sit', 'amet', 'parthiv', 'hemanth', 'harsha', 'vishnu', 'nishant'}
+print(f"Name count is {len(names)}")
+names.add("santosh")
+print(f"Name count is {len(names)}")
+names.add("ipsum")
+print(f"Name count is {len(names)}")
+names.remove('ipsum')
+print(f"Name count is {len(names)}")
+names.update(["ipsum", "John"])
+print(f"Name count is {len(names)}")
+names.clear()
+print(f"Name count is {len(names)}")
