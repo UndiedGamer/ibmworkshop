@@ -1,6 +1,6 @@
 class Queue():
-    def __init__(self, items: list[any]):
-        self.items = items
+    def __init__(self):
+        self.items = []
         self.rear = -1
         self.back = -1
 
